@@ -11,7 +11,3 @@ def print_last_digit(num):
             pass
     x = l.pop()
     print(x, end="")
-
-print_last_digit(98) 
-print_last_digit(0) 
-print_last_digit(-1024) 

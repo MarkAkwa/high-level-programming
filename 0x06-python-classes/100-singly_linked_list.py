@@ -31,12 +31,7 @@ class SinglyLinkedList:
         self.head = None
 
     def entire_list(self):
-        answer = ""
-        one_node = self.head
-        while one_node:
-            answer += str(one_node.data) + '\n'
-            one_node = one_node.next_node
-        return answer[:-1]
+        
 
     def sorted_insert(self, value):
 
