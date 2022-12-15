@@ -29,11 +29,3 @@ class Node:
 class SinglyLinkedList:
     def __init__(self):
         self.head = None
-
-    def entire_list(self):
-        
-
-    def sorted_insert(self, value):
-
-    
-    

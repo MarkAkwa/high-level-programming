@@ -19,4 +19,5 @@ def roman_to_int(roman_string):
                     result -= roman_dictionary[roman[item]]
                 else:
                     result += roman_dictionary[roman[item]]
+                item += 1
         return result
